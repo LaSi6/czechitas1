@@ -1,5 +1,5 @@
 let jmeno = prompt('jak se jmenuješ?');
-let vek = prompt('kolik je ti let?');
+let vek = Number(prompt('kolik je ti let?'));
 let podminka = 18;
 let doba = podminka - vek;
 console.log(`Vaše jméno je ${jmeno}, je vám ${vek} let,`);
