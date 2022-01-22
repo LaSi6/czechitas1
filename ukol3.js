@@ -5,3 +5,4 @@ while (i !== 0) {
   console.log(soucet);
   i = Number(prompt('piš celá čísla'));
 }
+console.log('Hotovo');
